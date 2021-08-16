@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav-wrapper a:hover {
+  color: black;
+  background-color: #ff5252;
+}
+.nav-wrapper a {
+  color: black;
+}
+
+.hero {
+  /* background-image: url("../images/bg.jpeg"); */
+  /* background-color: #ff5252; */
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-content {
+  padding-left: 14%;
+  padding-top: 8%;
+  padding-right: 2%;
+}
+.header-text {
+  font-size: 48px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.color-code {
+  color: #ff5252;
+}
+.blank-section {
+  height: 90vh;
+  background-color: #ff5252;
+}
+
+.our-development {
+  background-color: #ffebee;
+  height: 70vh;
+}
+
+.development {
+  padding-top: 3%;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.clients{
+  height: 80vh;
+  background-image: url("../images/clientsreview.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}

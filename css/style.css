@@ -54,3 +54,23 @@
   background-repeat: no-repeat;
   background-size: cover; 
 }
+
+
+.service{
+  height: 100vh;
+  background-image: url("../images/bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  padding: 80px;
+}
+
+/* .webdev-img{
+  background-image: url("../images/bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+} */

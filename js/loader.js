@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('body').fadeIn(1000);  
     $('.modal').modal();
     // $('.parallax').parallax();
-    // // $('.slider').slider({full_width:true});
+    $('.slider').slider({full_width:true});
     // $('.tabs').tabs();
     $('.blank-section').delay(1000).css('display', 'block');
     $('.hero').css('display', 'none');

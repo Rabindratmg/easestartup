@@ -18,6 +18,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .hero-content {
   padding-left: 14%;
   padding-top: 8%;
@@ -47,22 +48,21 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
 }
-.clients{
+.clients {
   height: 80vh;
   background-image: url("../images/clientsreview.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 
-
-.service{
+.service {
   height: 100vh;
   background-image: url("../images/bg.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   padding: 80px;
 }
 
@@ -71,6 +71,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
 } */
+.slider .indicators .indicator-item.active {
+  background-color: #ff5252;
+}

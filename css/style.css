@@ -11,7 +11,8 @@
 }
 
 .hero {
-  /* background-image: url("../images/bg.jpeg"); */
+  background-image: url("../images/bgrev.png");
+  /* background-image: url("../images/bg1.png"); */
   /* background-color: #ff5252; */
   height: 90vh;
   background-position: center;
@@ -19,13 +20,19 @@
   background-size: cover;
 }
 
+.background {
+  background-image: url("../images/bgrev.png");
+}
+/* .slider {
+  background-image: url("../images/bg1.png");
+} */
 .hero-content {
   padding-left: 14%;
   padding-top: 8%;
   padding-right: 2%;
 }
 .header-text {
-  font-size: 48px;
+  font-size: 3vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
 }
@@ -58,7 +65,7 @@
 
 .service {
   height: 100vh;
-  background-image: url("../images/bg.jpeg");
+  background-image: url("../images/bg1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,4 +81,16 @@
 } */
 .slider .indicators .indicator-item.active {
   background-color: #ff5252;
+}
+
+@media only screen and (max-width: 800px) {
+  .header-text {
+    padding-top: 100px;
+    font-size: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+  }
+  .brand-logo {
+    padding-right: 120px;
+  }
 }
